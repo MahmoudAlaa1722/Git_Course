@@ -1,0 +1,31 @@
+[
+  {
+    "Usertype": "Staff User 1",
+    "SearchOperatingCountry": "Egypt",
+    "SearchBranch": "Branch 1",
+    "SearchDepartment": "Department 1",
+    "Designation": "Designation 1",
+    "SearchRole": "ACC",
+    "EmployeeName": "Mahmoud",
+    "EmployeeEmail": " mahmoud.alaa@tildetech.ae",
+    "EmployeePhoneNo": "01030905444",
+    "EmployeeSecondaryNo": "01030902587",
+    "UserName": "Mahmoud",
+    "AgencyCode": "code 1"
+  },
+  {
+    "Usertype": "Staff User 1",
+    "SearchOperatingCountry": "Egypt",
+    "SearchBranch": "Branch 1",
+    "SearchDepartment": "Department 1",
+    "Designation": "Designation 1",
+    "SearchRole": "ACC",
+    "EmployeeName": "Mahmoud",
+    "EmployeeEmail": " mahmoud.alaa@tildetech.ae",
+    "EmployeePhoneNo": "01030905444",
+    "EmployeeSecondaryNo": "01030902587",
+    "UserName": "",
+    "AgencyCode": "code 1"
+  }
+
+]

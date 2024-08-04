@@ -1,0 +1,85 @@
+[INFO ] 2024-08-04 08:08:14.241 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231015[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-04 08:08:18.585 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2024-08-04 08:08:18.586 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-08-04 08:08:18.672 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-08-04 08:08:19.098 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-08-04 08:08:19.114 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-08-04 08:08:19.304 [main] Utils - [TestNG] Running:
+  C:\Users\Mahmoud\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2024-08-04 08:08:19.340 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-04 08:08:19.450 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-08-04 08:08:19.457 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-08-04 08:08:19.549 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of setup browse configuration method                                             
+                                                  'Master.Region.Region_AddCityTC.setupBrowse'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-04 08:08:19.574 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-08-04 08:08:19.588 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Mahmoud\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-08-04 08:08:19.590 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-08-04 08:08:19.590 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-08-04 08:08:21.771 [main] ReportManager - Aug 04, 2024 8:08:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-08-04 08:08:21.771 [main] ReportManager - WARNING: Unable to find CDP implementation matching 127
+[WARN ] 2024-08-04 08:08:21.772 [main] ReportManager - Aug 04, 2024 8:08:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-08-04 08:08:21.772 [main] ReportManager - WARNING: Unable to find version of CDP to use for 127.0.6533.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.13.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-08-04 08:08:21.780 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-08-04 08:08:21.822 [main] ReportManager - Target URL: "http://192.168.1.94/master/flight/preferAirline/add"
+[INFO ] 2024-08-04 08:08:21.853 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-08-04 08:08:22.522 [main] ReportManager - Navigate to url "http://192.168.1.94/master/flight/preferAirline/add".
+[INFO ] 2024-08-04 08:08:27.638 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                              Test Method: 'Master.Region.Region_AddCityTC.addCity'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-04 08:08:27.891 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-04 08:08:28.039 [main] ReportManager - Click "Master".
+[INFO ] 2024-08-04 08:08:28.250 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-04 08:08:28.317 [main] ReportManager - Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[1]/tilde-side-menu/div/ul/li[3]/tilde-accordion/header/a".
+[INFO ] 2024-08-04 08:08:28.509 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-04 08:08:28.569 [main] ReportManager - Click " Region".
+[INFO ] 2024-08-04 08:08:28.788 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-04 08:08:28.842 [main] ReportManager - Click "City".
+[INFO ] 2024-08-04 08:08:30.075 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-04 08:08:30.119 [main] ReportManager - Click "Add City ".
+[INFO ] 2024-08-04 08:08:31.349 [main] ReportManager - Type "Egypt" into "Country Name".
+[INFO ] 2024-08-04 08:08:32.526 [main] ReportManager - Type "Egypt" into "State Name".
+[INFO ] 2024-08-04 08:08:33.718 [main] ReportManager - Type "300" into "State Code".
+[INFO ] 2024-08-04 08:08:34.940 [main] ReportManager - Type "Egypt" into "City name".
+[INFO ] 2024-08-04 08:08:36.095 [main] ReportManager - Type "300" into "City Code".
+[INFO ] 2024-08-04 08:08:37.338 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-04 08:08:37.408 [main] ReportManager - Click "Send for approval".
+[INFO ] 2024-08-04 08:08:38.439 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: addCity'
+[INFO ] 2024-08-04 08:08:38.440 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'Master.Region.Region_AddCityTC.addCity'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-04 08:08:38.544 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                 Starting execution of quit configuration method                                                 
+                                                      'Master.Region.Region_AddCityTC.Quit'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-04 08:08:38.779 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-08-04 08:08:38.797 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-04 08:08:38.799 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-08-04 08:08:38.800 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-08-04 08:08:38.800 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

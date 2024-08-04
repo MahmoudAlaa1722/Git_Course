@@ -1,0 +1,23 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                              Test Method: 'Master.Region.Region_AddCityTC.addCity'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @04-08-2024 08:08:27.0891 AM
+[ReportManager] Click "Master". @04-08-2024 08:08:28.0033 AM
+[ReportManager] Moved the mouse to the middle of the element. @04-08-2024 08:08:28.0249 AM
+[ReportManager] Click "By.xpath: /html/body/ndc-root/ndc-layout/div/div[1]/tilde-side-menu/div/ul/li[3]/tilde-accordion/header/a". @04-08-2024 08:08:28.0317 AM
+[ReportManager] Moved the mouse to the middle of the element. @04-08-2024 08:08:28.0508 AM
+[ReportManager] Click " Region". @04-08-2024 08:08:28.0569 AM
+[ReportManager] Moved the mouse to the middle of the element. @04-08-2024 08:08:28.0787 AM
+[ReportManager] Click "City". @04-08-2024 08:08:28.0841 AM
+[ReportManager] Moved the mouse to the middle of the element. @04-08-2024 08:08:30.0075 AM
+[ReportManager] Click "Add City ". @04-08-2024 08:08:30.0119 AM
+[ReportManager] Type "Egypt" into "Country Name". @04-08-2024 08:08:31.0349 AM
+[ReportManager] Type "Egypt" into "State Name". @04-08-2024 08:08:32.0525 AM
+[ReportManager] Type "300" into "State Code". @04-08-2024 08:08:33.0718 AM
+[ReportManager] Type "Egypt" into "City name". @04-08-2024 08:08:34.0940 AM
+[ReportManager] Type "300" into "City Code". @04-08-2024 08:08:36.0095 AM
+[ReportManager] Moved the mouse to the middle of the element. @04-08-2024 08:08:37.0338 AM
+[ReportManager] Click "Send for approval". @04-08-2024 08:08:37.0407 AM
