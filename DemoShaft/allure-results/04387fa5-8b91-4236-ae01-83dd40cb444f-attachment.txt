@@ -1,0 +1,103 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 1' test cases in the current suite                                        
+                                                      Test Method: 'LoginPageTC.ValidLogin'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Type "user2" into "By.xpath: //input[@id="userAlias"]". @29-07-2024 16:35:24.0865 PM
+[ReportManager] Type "password2" into "By.xpath: //input[@id="password_password"]". @29-07-2024 16:35:24.0983 PM
+[ReportManager] Moved the mouse to the middle of the element. @29-07-2024 16:35:27.0247 PM
+[ReportManager] Click "LOGIN". @29-07-2024 16:35:27.0279 PM
+[ReportManager] Expected condition failed: waiting for com.shaft.listeners.internal.WebDriverListener$$Lambda/0x000002060959f800@796d0b43 (tried for 0 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class="welcome_txt"]"} @29-07-2024 16:35:36.0482 PM
+[ReportManager] Find element action failed. @29-07-2024 16:35:36.0496 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1722260136617_ValidLogin_findElement_failed' @29-07-2024 16:35:36.0711 PM
+[ReportManager] java.lang.reflect.InvocationTargetException: null
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+ org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+ net.bytebuddy.renamed.java.lang.Object$ByteBuddy$GffQeAGe.findElement(Unknown Source)
+ LoginPageTC.ValidLogin(LoginPageTC.java:34)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class="welcome_txt"]"}
+  (Session info: chrome=127.0.6533.72)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b576bd658f6a0d6fb248c83d2354f842, findElement {using=xpath, value=//p[@class="welcome_txt"]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.72, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\Mahmoud\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61794}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61794/devtoo..., se:cdpVersion: 127.0.6533.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:16533/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b576bd658f6a0d6fb248c83d2354f842
+ java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+ java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+ java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+ org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+ org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+ org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+ org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+ org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+ org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+ net.bytebuddy.renamed.java.lang.Object$ByteBuddy$GffQeAGe.findElement(Unknown Source)
+ LoginPageTC.ValidLogin(LoginPageTC.java:34)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+ java.base/java.lang.reflect.Method.invoke(Method.java:580)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) @29-07-2024 16:35:36.0712 PM
+[ReportManager] Get Text from element, text is "Invalid credentials, Please try again.". @29-07-2024 16:35:36.0795 PM

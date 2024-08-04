@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="NDCAdmin"  parallel="tests"  thread-count="2" >
+
+    <test name="LoginPageTC11">
+
+        <classes>
+            <class name="LoginPageTC">
+
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="AdminPageTC111">
+
+        <classes>
+            <class name="AdminPageTC">
+
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>
