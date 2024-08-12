@@ -1,0 +1,16 @@
+[
+  {
+    "DepartmentName": "Hotel",
+    "AssignedQueue": "new booking"
+  },
+
+  {
+    "DepartmentName": "Flight",
+    "AssignedQueue": "new booking"
+  },
+  {
+    "DepartmentName": "Flight",
+    "AssignedQueue": "dispatch"
+  }
+]
+

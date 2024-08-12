@@ -1,0 +1,184 @@
+[INFO ] 2024-08-12 10:15:05.379 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231015[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:15:06.370 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2024-08-12 10:15:06.371 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-08-12 10:15:06.463 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-08-12 10:15:06.928 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-08-12 10:15:06.945 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-08-12 10:15:07.130 [main] Utils - [TestNG] Running:
+  C:\Users\Mahmoud\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2024-08-12 10:15:07.158 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:15:07.285 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-08-12 10:15:07.293 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-08-12 10:15:07.387 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of setup browse configuration method                                             
+                                               'AdminPages.Admin.Staff.CreateStaffTC.setupBrowse'                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:15:07.415 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-08-12 10:15:07.431 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Mahmoud\Downloads\..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-08-12 10:15:07.432 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-08-12 10:15:07.433 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-08-12 10:15:10.237 [main] ReportManager - Aug 12, 2024 10:15:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-08-12 10:15:10.238 [main] ReportManager - WARNING: Unable to find CDP implementation matching 127
+[WARN ] 2024-08-12 10:15:10.239 [main] ReportManager - Aug 12, 2024 10:15:10 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2024-08-12 10:15:10.239 [main] ReportManager - WARNING: Unable to find version of CDP to use for 127.0.6533.100. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.13.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2024-08-12 10:15:10.248 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-08-12 10:15:10.309 [main] ReportManager - Target URL: "http://192.168.1.94/master/flight/preferAirline/add"
+[INFO ] 2024-08-12 10:15:10.343 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-08-12 10:15:10.930 [main] ReportManager - Navigate to url "http://192.168.1.94/master/flight/preferAirline/add".
+[INFO ] 2024-08-12 10:15:16.107 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                        Test Method: 'AdminPages.Admin.Staff.CreateStaffTC.Create_Stuff'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:15:18.750 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:18.934 [main] ReportManager - Click "Admin".
+[INFO ] 2024-08-12 10:15:22.226 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:22.400 [main] ReportManager - Click " Staff".
+[INFO ] 2024-08-12 10:15:25.691 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:27.188 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:27.866 [main] ReportManager - Click "By.xpath: //span[@style="margin-inline-end: 10px;"]".
+[INFO ] 2024-08-12 10:15:30.202 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2024-08-12 10:15:30.384 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:30.572 [main] ReportManager - Click "By.xpath: //p-dropdown[.//input[@id="id-Usertype"]]".
+[INFO ] 2024-08-12 10:15:30.894 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:30.967 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"Staff User 1")]}, filters=[{kind=below, args=[{xpath=//p-dropdown[.//input[@id="id-Usertype"]]}]}]}".
+[INFO ] 2024-08-12 10:15:34.291 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:34.394 [main] ReportManager - Click "By.xpath: //p-multiselect[.//input[@name='Operating country']]".
+[INFO ] 2024-08-12 10:15:35.563 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2024-08-12 10:15:35.738 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:35.867 [main] ReportManager - Click "By.xpath: //input[@class="p-multiselect-filter p-inputtext p-component"]".
+[INFO ] 2024-08-12 10:15:36.226 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:37.858 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:39.521 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:41.066 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:42.702 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:44.240 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:45.888 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:47.517 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:49.055 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:50.636 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:52.263 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:53.850 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:55.515 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:57.118 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:15:58.732 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:00.317 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:01.941 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:03.506 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:05.123 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:06.738 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:08.326 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:09.923 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:11.495 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:13.065 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:14.725 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:16.295 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:17.881 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:19.466 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:21.159 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:22.743 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:24.335 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:25.967 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:27.627 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:29.193 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:30.817 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:32.418 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:34.089 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:35.667 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:36.833 [main] ReportManager - Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x000002296357c500@71eb4ea4 (tried for 60 second(s) with 100 milliseconds interval) || element click intercepted: Element <p-multiselect _ngcontent-fwm-c56="" selecteditemslabel="All ({0} selected)" class="p-element p-inputwrapper fg-input ng-untouched ng-pristine ng-invalid ng-star-inserted">...</p-multiselect> is not clickable at point (1108, 458). Other element would receive the click: <li class="p-multiselect-empty-message ng-star-inserted">...</li>
+[INFO ] 2024-08-12 10:16:37.916 [main] ReportManager - Successfully created attachment 'Screenshot - 1723446997198_Create_Stuff_Click_failed'
+[INFO ] 2024-08-12 10:16:37.917 [main] ReportManager - Successfully created attachment 'Element Action Exception - Click - Stacktrace'
+[INFO ] 2024-08-12 10:16:37.929 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Create_Stuff'
+[INFO ] 2024-08-12 10:16:37.929 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'AdminPages.Admin.Staff.CreateStaffTC.Create_Stuff'                             
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:16:38.047 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Starting execution of navigate back to url configuration method                                         
+                                            'AdminPages.Admin.Staff.CreateStaffTC.navigateBackToURL'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:16:38.115 [main] ReportManager - Target URL: "http://192.168.1.94/master/flight/preferAirline/add"
+[INFO ] 2024-08-12 10:16:38.202 [main] ReportManager - Initial URL: "http://192.168.1.94/admin/staff/add"
+[INFO ] 2024-08-12 10:16:38.663 [main] ReportManager - Navigate to url "http://192.168.1.94/master/flight/preferAirline/add".
+[ERROR] 2024-08-12 10:16:38.677 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-08-12 10:16:38.678 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: navigateBackToURL'
+[INFO ] 2024-08-12 10:16:38.681 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 1' test cases in the current suite                                        
+                                        Test Method: 'AdminPages.Admin.Staff.CreateStaffTC.Create_Stuff'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:16:38.923 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:38.970 [main] ReportManager - Click "Admin".
+[INFO ] 2024-08-12 10:16:42.257 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:42.418 [main] ReportManager - Click " Staff".
+[INFO ] 2024-08-12 10:16:45.720 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:47.287 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:47.847 [main] ReportManager - Click "By.xpath: //span[@style="margin-inline-end: 10px;"]".
+[INFO ] 2024-08-12 10:16:49.968 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2024-08-12 10:16:50.131 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:50.227 [main] ReportManager - Click "By.xpath: //p-dropdown[.//input[@id="id-Usertype"]]".
+[INFO ] 2024-08-12 10:16:50.469 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:50.573 [main] ReportManager - Click "Relative Locator: {root={xpath=//*[contains(.,"Staff User 1")]}, filters=[{kind=below, args=[{xpath=//p-dropdown[.//input[@id="id-Usertype"]]}]}]}".
+[INFO ] 2024-08-12 10:16:53.895 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:53.975 [main] ReportManager - Click "By.xpath: //p-multiselect[.//input[@name='Operating country']]".
+[INFO ] 2024-08-12 10:16:55.128 [main] ReportManager - Setting "skipTestsWithLinkedIssues" property with "true".
+[INFO ] 2024-08-12 10:16:55.312 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-12 10:16:55.461 [main] ReportManager - Click "By.xpath: //input[@class="p-multiselect-filter p-inputtext p-component"]".
+[INFO ] 2024-08-12 10:17:55.568 [main] ReportManager - Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x000002296357c500@19cb3f (tried for 60 second(s) with 100 milliseconds interval)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown || java.util.concurrent.ExecutionException: org.openqa.selenium.NoSuchElementException: Cannot locate an element using [unknown locator]
+[INFO ] 2024-08-12 10:17:55.913 [main] ReportManager - Successfully created attachment 'Screenshot - 1723447075775_Create_Stuff_Click_failed'
+[INFO ] 2024-08-12 10:17:55.914 [main] ReportManager - Successfully created attachment 'Element Action Exception - Click - Stacktrace'
+[INFO ] 2024-08-12 10:17:55.919 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Create_Stuff'
+[INFO ] 2024-08-12 10:17:55.919 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'AdminPages.Admin.Staff.CreateStaffTC.Create_Stuff'                             
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:17:55.924 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Starting execution of navigate back to url configuration method                                         
+                                            'AdminPages.Admin.Staff.CreateStaffTC.navigateBackToURL'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:17:55.969 [main] ReportManager - Target URL: "http://192.168.1.94/master/flight/preferAirline/add"
+[INFO ] 2024-08-12 10:17:56.031 [main] ReportManager - Initial URL: "http://192.168.1.94/admin/staff/add"
+[INFO ] 2024-08-12 10:17:56.395 [main] ReportManager - Navigate to url "http://192.168.1.94/master/flight/preferAirline/add".
+[ERROR] 2024-08-12 10:17:56.397 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-08-12 10:17:56.400 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: navigateBackToURL'
+[INFO ] 2024-08-12 10:17:56.404 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                 Starting execution of quit configuration method                                                 
+                                                   'AdminPages.Admin.Staff.CreateStaffTC.Quit'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:17:56.652 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-08-12 10:17:56.659 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-12 10:17:56.660 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-08-12 10:17:56.661 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-08-12 10:17:56.661 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

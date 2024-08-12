@@ -1,0 +1,30 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 1' test cases in the current suite                                        
+                                        Test Method: 'AdminPages.Admin.Staff.CreateStaffTC.Create_Stuff'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:38.0923 AM
+[ReportManager] Click "Admin". @12-08-2024 10:16:38.0970 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:42.0256 AM
+[ReportManager] Click " Staff". @12-08-2024 10:16:42.0418 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:45.0720 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:47.0286 AM
+[ReportManager] Click "By.xpath: //span[@style="margin-inline-end: 10px;"]". @12-08-2024 10:16:47.0847 AM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @12-08-2024 10:16:49.0968 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:50.0131 AM
+[ReportManager] Click "By.xpath: //p-dropdown[.//input[@id="id-Usertype"]]". @12-08-2024 10:16:50.0227 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:50.0468 AM
+[ReportManager] Click "Relative Locator: {root={xpath=//*[contains(.,"Staff User 1")]}, filters=[{kind=below, args=[{xpath=//p-dropdown[.//input[@id="id-Usertype"]]}]}]}". @12-08-2024 10:16:50.0573 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:53.0895 AM
+[ReportManager] Click "By.xpath: //p-multiselect[.//input[@name='Operating country']]". @12-08-2024 10:16:53.0975 AM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @12-08-2024 10:16:55.0128 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:55.0311 AM
+[ReportManager] Click "By.xpath: //input[@class="p-multiselect-filter p-inputtext p-component"]". @12-08-2024 10:16:55.0461 AM
+[ReportManager] Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x000002296357c500@19cb3f (tried for 60 second(s) with 100 milliseconds interval)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: unknown || java.util.concurrent.ExecutionException: org.openqa.selenium.NoSuchElementException: Cannot locate an element using [unknown locator] @12-08-2024 10:17:55.0568 AM
+[ReportManager] Failed to Click "Relative Locator: {root={xpath=//*[contains(.,"Egypt")]}, filters=[{kind=below, args=[{xpath=//input[@class="p-multiselect-filter p-inputtext p-component"]}]}]}". Root cause: "org.openqa.selenium.NoSuchElementException: Cannot locate an element using [unknown locator]" @12-08-2024 10:17:55.0911 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1723447075775_Create_Stuff_Click_failed' @12-08-2024 10:17:55.0913 AM
+[ReportManager] Successfully created attachment 'Element Action Exception - Click - Stacktrace' @12-08-2024 10:17:55.0914 AM

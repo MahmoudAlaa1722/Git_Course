@@ -1,0 +1,65 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                        Test Method: 'AdminPages.Admin.Staff.CreateStaffTC.Create_Stuff'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:18.0750 AM
+[ReportManager] Click "Admin". @12-08-2024 10:15:18.0923 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:22.0226 AM
+[ReportManager] Click " Staff". @12-08-2024 10:15:22.0400 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:25.0690 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:27.0188 AM
+[ReportManager] Click "By.xpath: //span[@style="margin-inline-end: 10px;"]". @12-08-2024 10:15:27.0866 AM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @12-08-2024 10:15:30.0202 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:30.0383 AM
+[ReportManager] Click "By.xpath: //p-dropdown[.//input[@id="id-Usertype"]]". @12-08-2024 10:15:30.0571 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:30.0894 AM
+[ReportManager] Click "Relative Locator: {root={xpath=//*[contains(.,"Staff User 1")]}, filters=[{kind=below, args=[{xpath=//p-dropdown[.//input[@id="id-Usertype"]]}]}]}". @12-08-2024 10:15:30.0967 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:34.0291 AM
+[ReportManager] Click "By.xpath: //p-multiselect[.//input[@name='Operating country']]". @12-08-2024 10:15:34.0394 AM
+[ReportManager] Setting "skipTestsWithLinkedIssues" property with "true". @12-08-2024 10:15:35.0563 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:35.0737 AM
+[ReportManager] Click "By.xpath: //input[@class="p-multiselect-filter p-inputtext p-component"]". @12-08-2024 10:15:35.0867 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:36.0226 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:37.0858 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:39.0521 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:41.0065 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:42.0702 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:44.0240 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:45.0888 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:47.0517 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:49.0055 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:50.0636 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:52.0263 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:53.0850 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:55.0515 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:57.0118 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:15:58.0732 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:00.0316 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:01.0940 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:03.0506 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:05.0123 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:06.0738 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:08.0326 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:09.0923 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:11.0495 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:13.0065 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:14.0725 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:16.0295 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:17.0881 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:19.0466 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:21.0159 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:22.0743 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:24.0335 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:25.0967 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:27.0627 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:29.0192 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:30.0816 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:32.0418 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:34.0089 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-08-2024 10:16:35.0666 AM
+[ReportManager] Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x000002296357c500@71eb4ea4 (tried for 60 second(s) with 100 milliseconds interval) || element click intercepted: Element <p-multiselect _ngcontent-fwm-c56="" selecteditemslabel="All ({0} selected)" class="p-element p-inputwrapper fg-input ng-untouched ng-pristine ng-invalid ng-star-inserted">...</p-multiselect> is not clickable at point (1108, 458). Other element would receive the click: <li class="p-multiselect-empty-message ng-star-inserted">...</li> @12-08-2024 10:16:36.0833 AM
+[ReportManager] Failed to Click "Relative Locator: {root={xpath=//*[contains(.,"")]}, filters=[{kind=below, args=[{xpath=//input[@class="p-multiselect-filter p-inputtext p-component"]}]}]}". Root cause: "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <p-multiselect _ngcontent-fwm-c56="" selecteditemslabel="All ({0} selected)" class="p-element p-inputwrapper fg-input ng-untouched ng-pristine ng-invalid ng-star-inserted">...</p-multiselect> is not clickable at point (1108, 458). Other element would receive the click: <li class="p-multiselect-empty-message ng-star-inserted">...</li>" @12-08-2024 10:16:37.0896 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1723446997198_Create_Stuff_Click_failed' @12-08-2024 10:16:37.0916 AM
+[ReportManager] Successfully created attachment 'Element Action Exception - Click - Stacktrace' @12-08-2024 10:16:37.0917 AM
